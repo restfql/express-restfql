@@ -10,8 +10,10 @@ const filterResponse = (response: any, model: any, acc: any) =>{
 export const restfql: (req: Request, res: Response, next: any) => void = (req: Request, res: Response, next: any) => {
     let originalJson = res.json;
     res.json = (args: any) => {
-        const query = gql`${req.query.fql}`
-        return originalJson.apply(res,[filterResponse(args,query.definitions[0], {})]);
+        if(!req.query.fql)
+            return originalJson.apply(args)
+        const fql = gql`${req.query.fql}`
+        return originalJson.apply(res,[filterResponse(args, fql.definitions[0], {})]);
     };
     next();
 };
