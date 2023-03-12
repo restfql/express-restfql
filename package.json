@@ -1,6 +1,6 @@
 {
   "name": "express-restfql",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "resfql implementation for rest server",
   "main": "dist/index.js",
   "scripts": {
