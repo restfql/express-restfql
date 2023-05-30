@@ -8,7 +8,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          set-safe-directory: $GITHUB_WORKSPACE
       - uses: actions/setup-node@master
       - name: Cache ✨
         uses: actions/cache@v2
@@ -24,8 +26,6 @@ jobs:
         run: yarn test:cov
       - name: build
         run: yarn build
-      - run: ls -a
-      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - uses: kanekotic/merge-release@master
         if: github.event_name != 'pull_request'
         env:
