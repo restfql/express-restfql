@@ -24,6 +24,7 @@ jobs:
         run: yarn test:cov
       - name: build
         run: yarn build
+      - run: ls -a
       - uses: kanekotic/merge-release@master
         if: github.event_name != 'pull_request'
         env:
