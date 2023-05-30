@@ -31,3 +31,5 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+            DEPLOY_DIR: $GITHUB_WORKSPACE
+            SRC_PACKAGE_DIR: $GITHUB_WORKSPACE
