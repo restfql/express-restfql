@@ -25,6 +25,7 @@ jobs:
       - name: build
         run: yarn build
       - run: ls -a
+      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - uses: kanekotic/merge-release@master
         if: github.event_name != 'pull_request'
         env:
