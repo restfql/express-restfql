@@ -620,20 +620,20 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@29.5.6":
-  version "29.5.6"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.6.tgz#f4cf7ef1b5b0bfc1aa744e41b24d9cc52533130b"
-  integrity sha512-/t9NnzkOpXb4Nfvg17ieHE6EeSjDS2SGSpNYfoLbUAeL/EOueU/RSdOWFpfQTXBEM7BguYW1XQ0EbM+6RlIh6w==
+"@types/jest@29.5.7":
+  version "29.5.7"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.7.tgz#2c0dafe2715dd958a455bc10e2ec3e1ec47b5036"
+  integrity sha512-HLyetab6KVPSiF+7pFcUyMeLsx25LDNDemw9mGsJBkai/oouwrjTycocSDYopMEwFhN2Y4s9oPyOCZNofgSt2g==
   dependencies:
     expect "^29.0.0"
     pretty-format "^29.0.0"
 
 "@types/node@*":
-  version "20.8.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.7.tgz#ad23827850843de973096edfc5abc9e922492a25"
-  integrity sha512-21TKHHh3eUHIi2MloeptJWALuCu5H7HQTdTrWIFReA8ad+aggoX+lRes3ex7/FtpC+sVUpFMQ+QTfYr74mruiQ==
+  version "20.8.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.9.tgz#646390b4fab269abce59c308fc286dcd818a2b08"
+  integrity sha512-UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==
   dependencies:
-    undici-types "~5.25.1"
+    undici-types "~5.26.4"
 
 "@types/stack-utils@^2.0.0":
   version "2.0.2"
@@ -890,9 +890,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001541:
-  version "1.0.30001553"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001553.tgz#e64e7dc8fd4885cd246bb476471420beb5e474b5"
-  integrity sha512-N0ttd6TrFfuqKNi+pMgWJTb9qrdJu4JSpgPFLe/lrD19ugC6fZgF0pUewRowDwzdDnb9V41mFcdlYgl/PyKf4A==
+  version "1.0.30001558"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001558.tgz#d2c6e21fdbfe83817f70feab902421a19b7983ee"
+  integrity sha512-/Et7DwLqpjS47JPEcz6VnxU9PwcIdVi0ciLXRWBQdj1XFye68pSQYpV0QtPTfUKWuOaEig+/Vez2l74eDc1tPQ==
 
 chalk@^2.4.2:
   version "2.4.2"
@@ -1123,9 +1123,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.535:
-  version "1.4.565"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.565.tgz#205f3746a759ec3c43bce98b9eef5445f2721ea9"
-  integrity sha512-XbMoT6yIvg2xzcbs5hCADi0dXBh4//En3oFXmtPX+jiyyiCTiM9DGFT2SLottjpEs9Z8Mh8SqahbR96MaHfuSg==
+  version "1.4.570"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.570.tgz#5fb79061ead248a411bc8532da34d1dbf6ae23c1"
+  integrity sha512-5GxH0PLSIfXKOUMMHMCT4M0olwj1WwAxsQHzVW5Vh3kbsvGw8b4k7LHQmTLC2aRhsgFzrF57XJomca4XLc/WHA==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -2724,10 +2724,10 @@ typescript@5.2.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
 
-undici-types@~5.25.1:
-  version "5.25.3"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.25.3.tgz#e044115914c85f0bcbb229f346ab739f064998c3"
-  integrity sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
+  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
